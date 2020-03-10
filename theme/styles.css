@@ -80,6 +80,17 @@ footer p {
     font-size: 0.875em;
 }
 
+footer .social-links a {
+    margin: 0px 24px;
+}
+
+footer .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #1F1F1F;
@@ -88,6 +99,10 @@ footer p {
     
     a {
         color: #EDEDED;
+    }
+    
+    footer i {
+        color: #EDEDED
     }
 }
 
@@ -153,5 +168,10 @@ footer p {
     
     nav li {
         margin: 0px 24px;
+    }
+    
+    footer i {
+        width: 16px;
+        height: 16px;
     }
 }
