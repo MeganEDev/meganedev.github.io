@@ -13,6 +13,13 @@ body {
     font-family: 'Avenir Next';
 }
 
+.vertical-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
 header {
     padding: 36px;
 }
@@ -57,6 +64,18 @@ h4 {
     font-weight: 600;
 }
 
+p {
+    font-weight: 300;
+}
+
+footer {
+    padding: 48px;
+}
+
+footer p {
+    font-size: 0.875em;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #1F1F1F;
@@ -88,6 +107,14 @@ h4 {
     
     nav {
         margin-top: 36px;
+    }
+    
+    footer {
+        padding: 36px;
+    }
+    
+    footer .third-party {
+        padding-top: 24px;
     }
 }
 
