@@ -15,12 +15,15 @@ body {
 
 header {
     padding: 36px;
+}
+
+.horizontal-flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header .container {
+header .site-details {
     height: 140px;
     display: flex;
     align-items: center;
@@ -30,7 +33,7 @@ header img {
     height: 100%;
 }
 
-header .title {
+header .site-title {
     margin-left: 40px;
 }
 
@@ -66,16 +69,39 @@ h4 {
 }
 
 @media(max-width: 820px) {
+    .horizontal-flex-container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    header {
+        padding: 24px;
+    }
+
+    header .site-details {
+        height: 120px;
+    }
+    
+    header .site-title {
+        margin-left: 32px;
+    }
+    
+    nav {
+        margin-top: 36px;
+    }
+}
+
+@media(max-width: 600px) {
     h1 {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
     
     h2 {
-        font-size: 1.2em;
+        font-size: 1.25em;
     }
     
     h3 {
-        font-size: 1.1em;
+        font-size: 1.12em;
     }
     
     h5 {
@@ -85,24 +111,13 @@ h4 {
     h6 {
         font-size: 0.8em;
     }
-    
-    header {
-        padding: 24px;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
 
-    header .container {
+    header .site-details {
         height: 86px;
     }
     
-    header .title {
+    header .site-title {
         margin-left: 24px;
-    }
-    
-    nav {
-        margin-top: 36px;
     }
     
     nav li {
