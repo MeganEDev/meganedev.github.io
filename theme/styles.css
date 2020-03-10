@@ -56,7 +56,7 @@ nav li {
 }
 
 nav li a.selected {
-    color: #9B9B9B;
+    font-weight: 600;
 }
 
 a {
