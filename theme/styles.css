@@ -51,6 +51,11 @@ nav li {
     font-weight: 500;
 }
 
+nav li a.selected {
+    color: #9B9B9B;
+    text-decoration: underline;
+}
+
 a {
     color: #4A4A4A;
     text-decoration: none;
