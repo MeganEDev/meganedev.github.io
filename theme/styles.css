@@ -111,7 +111,7 @@ footer .third-party a {
   width: 20px;
   height: 20px;
   stroke: currentColor;
-  stroke-width: 1.5;
+  stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
   fill: none;
@@ -205,8 +205,8 @@ footer .third-party a {
     }
     
     footer i {
-        width: 16px;
-        height: 16px;
+        width: 18px;
+        height: 18px;
     }
     
     .feather {
