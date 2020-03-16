@@ -25,7 +25,7 @@ html, body {
 }
 
 header {
-    padding: 36px;
+    padding: 36px 36px 0px 36px;
 }
 
 .horizontal-flex-container {
@@ -72,6 +72,18 @@ h4 {
     font-weight: 600;
 }
 
+.site-content {
+    text-align: center;
+}
+
+.site-content h1 {
+    font-size: 2.5em;
+}
+
+.site-content h2 {
+    font-size: 2em;
+}
+
 footer {
     padding: 48px;
 }
@@ -89,6 +101,10 @@ footer .social-links {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+}
+
+footer .third-party a {
+    text-decoration: underline;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -113,7 +129,7 @@ footer .social-links {
     }
     
     header {
-        padding: 24px;
+        padding: 24px 24px 0px 24px;
     }
 
     header .site-details {
@@ -168,6 +184,14 @@ footer .social-links {
     
     nav li {
         margin: 0px 24px;
+    }
+    
+    .site-content h1 {
+        font-size: 2em;
+    }
+
+    .site-content h2 {
+        font-size: 1.5em;
     }
     
     footer i {
