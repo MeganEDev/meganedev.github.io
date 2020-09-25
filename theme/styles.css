@@ -74,9 +74,6 @@ h4 {
 
 .site-content {
     text-align: center;
-    width: 50%;
-    margin: auto;
-    line-height: 1.6;
 }
 
 .site-content h1 {
@@ -85,10 +82,6 @@ h4 {
 
 .site-content h2 {
     font-size: 2em;
-}
-
-.site-content p {
-    padding-bottom: 24px;
 }
 
 footer {
@@ -157,10 +150,6 @@ footer .third-party a {
         margin-left: 32px;
     }
     
-    .site-content {
-        width: 70%;
-    }
-    
     nav {
         margin-top: 36px;
     }
@@ -205,10 +194,6 @@ footer .third-party a {
     
     nav li {
         margin: 0px 24px;
-    }
-    
-    .site-content {
-        width: 80%;
     }
     
     .site-content h1 {
