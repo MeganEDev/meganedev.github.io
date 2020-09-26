@@ -22,10 +22,12 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: min-content;
 }
 
 header {
-    padding: 36px 36px 0px 36px;
+    min-height: min-content;
+    padding: 36px;
 }
 
 .horizontal-flex-container {
@@ -73,7 +75,12 @@ h4 {
 }
 
 .site-content {
+    min-height: min-content;
     text-align: center;
+    width: 60%;
+    max-width: 620px;
+    margin: auto;
+    line-height: 1.6;
 }
 
 .site-content h1 {
@@ -84,7 +91,12 @@ h4 {
     font-size: 2em;
 }
 
+.site-content p {
+    padding-bottom: 24px;
+}
+
 footer {
+    min-height: min-content;
     padding: 48px;
 }
 
@@ -122,11 +134,11 @@ footer .third-party a {
         background-color: #1F1F1F;
         color: #EDEDED;
     }
-    
+
     a {
         color: #EDEDED;
     }
-    
+
     footer i {
         color: #EDEDED
     }
@@ -137,27 +149,31 @@ footer .third-party a {
         flex-direction: column;
         justify-content: flex-start;
     }
-    
+
     header {
-        padding: 24px 24px 0px 24px;
+        padding: 24px;
     }
 
     header .site-details {
         height: 120px;
     }
-    
+
     header .site-title {
         margin-left: 32px;
     }
-    
+
+    .site-content {
+        width: 70%;
+    }
+
     nav {
         margin-top: 36px;
     }
-    
+
     footer {
         padding: 36px;
     }
-    
+
     footer .third-party {
         padding-top: 24px;
     }
@@ -167,19 +183,19 @@ footer .third-party a {
     h1 {
         font-size: 1.5em;
     }
-    
+
     h2 {
         font-size: 1.25em;
     }
-    
+
     h3 {
         font-size: 1.12em;
     }
-    
+
     h5 {
         font-size: 0.9em;
     }
-    
+
     h6 {
         font-size: 0.8em;
     }
@@ -187,15 +203,19 @@ footer .third-party a {
     header .site-details {
         height: 86px;
     }
-    
+
     header .site-title {
         margin-left: 24px;
     }
-    
+
     nav li {
         margin: 0px 24px;
     }
-    
+
+    .site-content {
+        width: 80%;
+    }
+
     .site-content h1 {
         font-size: 1.75em;
     }
@@ -203,12 +223,12 @@ footer .third-party a {
     .site-content h2 {
         font-size: 1.5em;
     }
-    
+
     footer i {
         width: 18px;
         height: 18px;
     }
-    
+
     .feather {
       width: 16px;
       height: 16px;
